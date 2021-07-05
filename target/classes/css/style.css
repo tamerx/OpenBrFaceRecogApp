@@ -1,0 +1,37 @@
+.imgContainer {
+    -fx-background-color: #666
+}
+
+.icon {
+    -fx-fill: darkcyan;
+    -fx-cursor: hand
+}
+
+
+.button {
+    -fx-background-color: rgba(0, 0, 0, 0.08),
+    linear-gradient(#9a9a9a, #909090),
+    linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%);
+
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+
+}
+
+
+.shiny_orange {
+    -fx-background-color: linear-gradient(#ffd65b, #e68400),
+    linear-gradient(#ffef84, #f2ba44),
+    linear-gradient(#ffea6a, #efaa22),
+    linear-gradient(#ffe657 0%, #f8c202 100%, #eea10b 100%),
+    linear-gradient(from 0% 0% to 15% 50%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0, 1, 2, 3, 0;
+    -fx-text-fill: #000b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-padding: 10 20 10 20;
+}

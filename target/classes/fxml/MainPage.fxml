@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="openbrfacerecogapp.CameraCaptureController">
+    <children>
+        <AnchorPane fx:id="imgContainer" maxHeight="-1.0" maxWidth="-1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" VBox.vgrow="ALWAYS">
+            <children>
+                <ImageView fx:id="imageView" fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true" />
+
+                <Button fx:id="myReload" layoutX="563.0" layoutY="751.0" mnemonicParsing="false" onMouseClicked="#reload" text="Re-Load" textAlignment="CENTER" />
+
+                <Button fx:id="btnCapture" layoutX="640.0" layoutY="751.0" mnemonicParsing="false" onMouseClicked="#capture" text="Capture" />
+
+                <Button fx:id="btnSave" layoutX="713.0" layoutY="751.0" mnemonicParsing="false" onMouseClicked="#saveImage" text="Save" />
+
+                <Button fx:id="btnScanFace" layoutX="784.0" layoutY="751.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" onMouseClicked="#scanImage" text="Scan Face" />
+
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
